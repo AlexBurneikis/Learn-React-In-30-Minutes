@@ -43,19 +43,19 @@ function App() {
     <>
       <h1>Todo List</h1>
 
-      <div class="todoList">
+      <div className="todoList">
         <TodoList todos={todos} toggleTodo={toggleTodo} />
       </div>
 
-      <div class="inputSection">
+      <div className="inputSection">
         <input ref={todoNameRef} type="text" />
-        <button class="addTodo" onClick={handleAddTodo}>
+        <button className="addTodo" onClick={handleAddTodo}>
           Add Todo
         </button>
       </div>
 
-<div class="clearCompleteWrapper" >
-      <button class="clearComplete" onClick={handleClearTodos}>Clear Complete</button>
+<div className="clearCompleteWrapper" >
+      <button className="clearComplete" onClick={handleClearTodos}>Clear Complete</button>
       </div>
     </>
   );
