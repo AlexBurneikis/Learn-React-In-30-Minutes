@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(30, 40, 60);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+}
+
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+input[type="text"] {
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: rgb(70, 80, 100);
+  width: 175px;
+  height: 18px;
+  border-radius: 5px;
+  border-style: hidden;
+  color: white;
+  padding: 2px;
+  padding-left: 4px;
+}
+
+.addTodo {
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: rgb(70, 80, 100);
+  width: 75px;
+  height: 20px;
+  border-radius: 5px;
+  border-style: hidden;
+  color: white;
+  padding: 2px;
+}
+
+.todoList {
+  background-color: rgb(50, 60, 80);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 85vw;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputSection {
+  background-color: rgb(40, 50, 70);
+  color: white;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 300px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.clearCompleteWrapper {
+  background-color: rgb(40, 50, 70);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 330px;
+}
+
+.clearComplete {
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border-style: hidden;
+    height: 40px;
+    width: 330px;
+    padding-left: 20px;
+  }
