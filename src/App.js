@@ -24,7 +24,7 @@ function App() {
     setTodos(newTodos)
   }
 
-  function handleAddTodo(e) {
+  function handleAddTodo() {
     const name = todoNameRef.current.value
     if (name === '') return
     setTodos(prevTodos => {
